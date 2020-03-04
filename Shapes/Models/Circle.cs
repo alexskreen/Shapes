@@ -15,5 +15,9 @@ namespace Shapes.Models
         {
             return Math.Round(((Radius * Radius) * 3.14), 2);
         }
+        public double GetCicumference()
+        {
+            return Math.Round((2 * Math.PI * Radius), 2);
+        }
     }
 }
